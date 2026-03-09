@@ -2,6 +2,7 @@
   "name": "ascii-fps",
   "version": "0.2.0",
   "description": "A terminal ASCII FPS using terminal-kit for terminal control and custom game/render logic.",
+  "license": "MIT",
   "type": "module",
   "files": [
     "ascii-fps",
@@ -15,6 +16,23 @@
     "start": "node ./ascii-fps",
     "test": "node --test"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chenjingdev/doom-tui.git"
+  },
+  "homepage": "https://github.com/chenjingdev/doom-tui#readme",
+  "bugs": {
+    "url": "https://github.com/chenjingdev/doom-tui/issues"
+  },
+  "keywords": [
+    "ascii",
+    "fps",
+    "tui",
+    "terminal",
+    "cli",
+    "game",
+    "raycasting"
+  ],
   "engines": {
     "node": ">=20"
   },
