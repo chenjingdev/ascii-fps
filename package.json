@@ -1,0 +1,24 @@
+{
+  "name": "doom-tui",
+  "version": "0.2.0",
+  "description": "A terminal FPS using terminal-kit for terminal control and custom game/render logic.",
+  "type": "module",
+  "files": [
+    "doom-tui",
+    "src",
+    "README.md"
+  ],
+  "bin": {
+    "doom-tui": "./doom-tui"
+  },
+  "scripts": {
+    "start": "node ./doom-tui",
+    "test": "node --test"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "terminal-kit": "^3.1.2"
+  }
+}
