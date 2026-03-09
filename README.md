@@ -16,6 +16,19 @@
 ascii-fps
 ```
 
+npm으로 전역 설치 후 실행:
+
+```bash
+npm i -g ascii-fps
+ascii-fps
+```
+
+npx로 바로 실행:
+
+```bash
+npx ascii-fps
+```
+
 저장소 안에서 직접 실행:
 
 ```bash
