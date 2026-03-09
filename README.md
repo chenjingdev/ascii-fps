@@ -4,6 +4,10 @@
 
 `terminal-kit`로 입력과 fullscreen 제어를 맡기고, 게임 로직과 장면 렌더링은 직접 구현합니다.
 
+![ASCII-FPS demo](./assets/optimized/demo-readme.gif)
+
+[Watch higher-quality WebM demo](./assets/optimized/demo.webm)
+
 ## 실행
 
 터미널에서 앱 이름만으로 실행:
