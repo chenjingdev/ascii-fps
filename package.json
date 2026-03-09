@@ -1,6 +1,6 @@
 {
   "name": "ascii-fps",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "A terminal ASCII FPS using terminal-kit for terminal control and custom game/render logic.",
   "license": "MIT",
   "type": "module",
