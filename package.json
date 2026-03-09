@@ -18,11 +18,11 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/chenjingdev/doom-tui.git"
+    "url": "git+https://github.com/chenjingdev/ascii-fps.git"
   },
-  "homepage": "https://github.com/chenjingdev/doom-tui#readme",
+  "homepage": "https://github.com/chenjingdev/ascii-fps#readme",
   "bugs": {
-    "url": "https://github.com/chenjingdev/doom-tui/issues"
+    "url": "https://github.com/chenjingdev/ascii-fps/issues"
   },
   "keywords": [
     "ascii",
