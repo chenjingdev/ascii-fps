@@ -1,18 +1,18 @@
 {
-  "name": "doom-tui",
+  "name": "ascii-fps",
   "version": "0.2.0",
-  "description": "A terminal FPS using terminal-kit for terminal control and custom game/render logic.",
+  "description": "A terminal ASCII FPS using terminal-kit for terminal control and custom game/render logic.",
   "type": "module",
   "files": [
-    "doom-tui",
+    "ascii-fps",
     "src",
     "README.md"
   ],
   "bin": {
-    "doom-tui": "./doom-tui"
+    "ascii-fps": "./ascii-fps"
   },
   "scripts": {
-    "start": "node ./doom-tui",
+    "start": "node ./ascii-fps",
     "test": "node --test"
   },
   "engines": {

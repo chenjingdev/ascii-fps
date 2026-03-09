@@ -195,7 +195,7 @@ test("input tracker reset clears latched movement", () => {
 test("render frame includes ansi color codes and title", () => {
   const frame = renderFrame(fixedState(), 90, 30, 60);
   assert.match(frame, /\x1b\[H/);
-  assert.match(frame, /DOOM-TUI/);
+  assert.match(frame, /ASCII-FPS/);
   assert.match(frame, /\x1b\[1;38;5;207m/);
 });
 
@@ -206,7 +206,7 @@ test("render frame resets style before non-sky cells to avoid background bleed",
 
 test("title screen shows intro logo and bot count", () => {
   const frame = renderTitleScreen(90, 30, { enemyCount: 14, bestClearTime: null, imeWarning: false, phase: 0.5 });
-  assert.match(frame, /RIP AND TEAR/);
+  assert.match(frame, /ASCII FPS/);
   assert.match(frame, /Bots: 14/);
 });
 

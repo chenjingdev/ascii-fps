@@ -24,7 +24,7 @@ function main() {
   const { stdout } = process;
 
   if (!term.stdin.isTTY || !stdout.isTTY) {
-    console.error("doom-tui requires an interactive terminal.");
+    console.error("ascii-fps requires an interactive terminal.");
     process.exit(1);
   }
 

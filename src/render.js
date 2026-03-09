@@ -298,15 +298,14 @@ function drawIntroOverlay(buffer, width, height, progress) {
   }
 
   const logo = [
-    "#####     #####    #####   ##   ##",
-    "##   ##  ##   ##  ##   ##  ### ###",
-    "##   ##  ##   ##  ##   ##  #######",
-    "##   ##  ##   ##  ##   ##  ## # ##",
-    "##   ##  ##   ##  ##   ##  ##   ##",
-    "#####     #####    #####   ##   ##"
+    "    A      SSSS    CCCC  IIII IIII       FFFFF  PPPPP    SSSS",
+    " A A    SS      CC      II   II        FF     PP  PP  SS",
+    "  AAAAA    SSSS   CC      II   II  ===== FFFFF  PPPPP    SSSS",
+    "  AA   AA      SS  CC      II   II        FF     PP          SS",
+    " AA   AA   SSSS    CCCC  IIII IIII       FF     PP       SSSS"
   ];
-  const subtitle = "RIP AND TEAR";
-  const hint = "No loading pause. Hell starts immediately.";
+  const subtitle = "ASCII FPS";
+  const hint = "Adjust bots, then press Enter to start.";
   const centerY = Math.max(3, Math.trunc(height / 2) - 6);
   const reveal = Math.min(1, progress / 0.85);
 
@@ -484,7 +483,7 @@ function renderFrame(state, width, height, fps, options = {}) {
   const viewHeight = height - hudRows;
   const buffer = blankBuffer(height, width);
 
-  drawText(buffer, 0, 2, "DOOM-TUI", "title");
+  drawText(buffer, 0, 2, "ASCII-FPS", "title");
   drawText(buffer, 0, 11, " // ", "hudAccent");
   drawText(buffer, 0, 15, "node + terminal-kit", "hudText");
 

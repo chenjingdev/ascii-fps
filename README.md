@@ -1,6 +1,6 @@
-# DOOM-TUI
+# ASCII-FPS
 
-터미널에서 돌아가는 작은 1인칭 ASCII 슈터입니다. `DOOM`의 감각을 그대로 복제한 것은 아니고, `DOOM`/`Wolfenstein` 계열의 raycasting 진행감을 TUI로 옮긴 playable 데모입니다.
+터미널에서 돌아가는 작은 1인칭 ASCII 슈터입니다. `DOOM`/`Wolfenstein` 계열의 raycasting 진행감을 TUI로 옮긴 playable 데모입니다.
 
 `terminal-kit`로 입력과 fullscreen 제어를 맡기고, 게임 로직과 장면 렌더링은 직접 구현합니다.
 
@@ -9,13 +9,13 @@
 터미널에서 앱 이름만으로 실행:
 
 ```bash
-doom-tui
+ascii-fps
 ```
 
 저장소 안에서 직접 실행:
 
 ```bash
-./doom-tui
+./ascii-fps
 ```
 
 `pnpm` 스크립트로 실행:
@@ -28,7 +28,7 @@ pnpm start
 
 ```bash
 pnpm link --global
-doom-tui
+ascii-fps
 ```
 
 ## 조작
